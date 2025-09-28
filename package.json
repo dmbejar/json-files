@@ -1,0 +1,48 @@
+{
+  "name": "@dmbejar/json-files",
+  "version": "1.1.3",
+  "description": "Easy manipulation for json files.",
+  "publishConfig": {
+    "access": "public"
+  },
+  "main": "index.js",
+  "types": "index.d.ts",
+  "type": "module",
+  "exports": {
+    ".": {
+      "import": "./index.js",
+      "types": "./index.d.ts"
+    }
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "json",
+    "file",
+    "manipulation",
+    "load",
+    "save",
+    "parse",
+    "typescript",
+    "types"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dmbejar/json-files.git"
+  },
+  "bugs": {
+    "url": "https://github.com/dmbejar/json-files/issues"
+  },
+  "homepage": "https://github.com/dmbejar/json-files#readme",
+  "author": "Diego Manuel Béjar",
+  "license": "MIT",
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "files": [
+    "index.js",
+    "index.d.ts",
+    "README.md"
+  ]
+}
